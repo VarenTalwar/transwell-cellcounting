@@ -22,7 +22,7 @@ In the other folders, you will find 4 folders, each containing images from all i
  
 NOTE: The ImageJ program is not very good at differentiating cells clumped together. This is corrected for in further analysis in Python. Therefore, the main judgments you can make from the overlay images at this stage are whether it is overcounting cells or including regions that are not cells (like pores, background, etc.). 
 
-## Analyze results in python
+## Analyze results in Python
 1. Open "cell_area.ipynb".
 2. Click ‘Run All’
 3. A message will pop up telling you to select the master folder. Click OK, and a popup will let you select a folder. Select the master folder that was the INPUT to the ImageJ program.
