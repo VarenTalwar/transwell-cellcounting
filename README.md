@@ -1,5 +1,5 @@
 # transwell-cellcounting
-Data Pre-Processing 
+##Data Pre-Processing 
  
 For the program to work predictably, your images must be stored in a specific manner. This protocol assumes you have 9 images for each group. The format is summarized in the schematic below. You can also refer to the folder titled ‘trial’ under the folder ‘demo’ in ‘ImageJ_cellcounting’ for an example. 
  
@@ -7,11 +7,13 @@ For the program to work predictably, your images must be stored in a specific ma
  
 You should have one folder for each experiment (also called ‘figure’ in this document, referring to all data associated with one figure in the final publication/presentation). Inside each of these folders, you should have one sub-folder for each condition included in the experiment (eg – shNTC, drug treated, hypoxia, etc.). Inside each of these sub-folders should be 9 images associated with that group. Finally, all these folders should be inside one ‘master’ folder, as shown in the schematic above. The ‘master’ folder will be the input to the ImageJ macro program.  
  
-Image Analysis in Fiji/ImageJ 
+##Image Analysis in Fiji/ImageJ 
  
 Open Fiji 
 Open the macro file (.ijm) corresponding to the process you want to use. (if using the Lab iMac, the file is stored in Desktop -> ImageJ_cellcounting)  
 It should look like this: 
+
+![Schematic of directory formatting](/Users/varentalwar/Desktop/Lab/ImageJ_cellcounting copy/schematic_directory.png)
  
  
 NOTE: Before running the macro, make sure the results will be displayed in the desired fashion. To do this, go to Analyze -> Set Measurements…, and make sure the ‘Display label’ button is checked. It should look like this: 
