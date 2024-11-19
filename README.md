@@ -2,13 +2,24 @@
 ## Data Pre-Processing 
  
 For the program to work predictably, your images must be stored in a specific manner. This protocol assumes you have 9 images for each group. The format is summarized in the schematic below. You can also refer to the folder titled ‘trial’ under the folder ‘demo’ in ‘ImageJ_cellcounting’ for an example. 
- 
+<br><br>
+<div align="center">
+<img src="schematic_directory.png" alt="Schematic of directories" width="800">
+</div>
+<br><br>
+
 You should have one folder for each experiment (also called ‘figure’ in this document, referring to all data associated with one figure in the final publication/presentation). Inside each of these folders, you should have one sub-folder for each condition included in the experiment (eg – shNTC, drug treated, hypoxia, etc.). Inside each of these sub-folders should be 9 images associated with that group. Finally, all these folders should be inside one ‘master’ folder, as shown in the schematic above. The ‘master’ folder will be the input to the ImageJ macro program.  
  
 ## Image Analysis in Fiji/ImageJ 
  
 1. Open Fiji 
-2. Open the macro file (.ijm) corresponding to the process you want to use. (if using the Lab iMac, the file is stored in Desktop -> ImageJ_cellcounting)  
+2. Open the macro file (.ijm) corresponding to the process you want to use. (if using the Lab iMac, the file is stored in Desktop -> ImageJ_cellcounting). It should look like this:
+
+<br><br>
+<div align="center">
+<img src="measurements_setting.png" alt="Schematic of directories" width="300">
+</div>
+<br><br>
  
 NOTE: Before running the macro, make sure the results will be displayed in the desired fashion. To do this, go to Analyze -> Set Measurements…, and make sure the ‘Display label’ button is checked.
  
