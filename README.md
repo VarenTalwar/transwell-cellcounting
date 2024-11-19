@@ -3,7 +3,7 @@
  
 For the program to work predictably, your images must be stored in a specific manner. This protocol assumes you have 9 images for each group. The format is summarized in the schematic below.
 
-<br><br>
+<br>
 <div align="center">
 <img src="schematic_directory.png" alt="Schematic of directories" width="800">
 </div>
@@ -18,7 +18,7 @@ You should have one folder for each experiment (also called ‘figure’ in this
  
 NOTE: Before running the macro, make sure the results will be displayed in the desired fashion. To do this, go to Analyze -> Set Measurements…, and make sure the ‘Display label’ button is checked.
 
-<br><br>
+<br>
 <div align="center">
 <img src="measurements_setting.png" alt="Schematic of directories" width="300">
 </div>
